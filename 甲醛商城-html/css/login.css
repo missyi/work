@@ -1,0 +1,52 @@
+.page { width: 100%; height: 100%; padding: 0 20px; background: #f0eff4; box-sizing:border-box; position: relative;}
+.logo { width: 100%; text-align: center; padding: 12% 0; box-sizing:border-box;}
+.logo img { width:45%; max-width:185px;}
+.login-box { width: 100%; height: 45px; line-height: 45px; border: 1px solid #d9d9d9; background: #fff; padding-left:10px; box-sizing:border-box;}
+.login-box input { width: 40%;/* height: 43px; line-height: 43px; */ border: none; background: none; outline: none;}
+.login-box .get-code { width: 6rem; height: 30px; line-height: 30px; display: block; float: right; color: #fff; text-align: center; border-radius: 5px; background: #cdcdcd; margin: 7px 10px 0 0; cursor: pointer ; font-size: 12px;}
+.login { width: 100%; height: 45px; line-height: 45px;/* border: none;*/ margin-top: 30px; font-size: 16px; display: block; background: #da3f3f; border-radius: 5px;  color: #fff; text-align: center;}
+.forget-mm { float: right; color: #b8b7b8; margin-top: 15px;}
+.other {  color: #b8b7b8; text-align: center; margin-top: 60px; }
+
+/*登录--账号密码页面*/
+.ipt-pwd input { width: 80%;}
+
+/*登录-弹窗*/
+.grayDiv { width:100%; height:100%; background:#000; opacity:0.5; position:fixed; z-index:9; display: none; transition:all 1s;}
+.gray-show { display: block; transition:all 1s;}
+.popDiv { width:100%; height:35%; background:#fff; position:fixed; bottom:-35%; z-index:10;/* display:none;*/ transition:all 1s;}
+.show { bottom: 0 !important; transition:all 1s;}
+.other-login { width: 70%; margin:10% auto; text-align: center;}
+.other-login p { color: #b8b7b8; margin-top: 6px;}
+.ol-p { margin-bottom: 10%;}
+.o-way { width:100%; overflow: hidden;}
+.o-way .ow-qq,.o-way .ow-wx { width: 50%;}
+.other-login img { width: 45%; max-width: 88px;}
+
+/*修改手机号*/
+.con { width: 100%;  background: #f0eff4;}
+.alter-con { padding-top: 10%;}
+.ipt-div { width: 100%; height: 45px; background: #fff; border: 1px solid #e4e4e6;}
+.ipt-div input { width: 71%; margin-top: 12px; padding-left:10px; color: #a9a9a9; border: none; outline: none; font-size: 16px;}
+.ipt-div .get { /*width: 20%; */height: 30px; line-height: 30px; display: block; float: right; background: #c5c5c5; border-radius: 1px; color: #fff; cursor: pointer; text-align: center; margin: 7px 10px 0 0; padding: 0 5px;}
+.sure { width: 80%; height: 45px; line-height: 45px; display: block; margin:30% auto 10%; color: #fff; background: #db3535; border-radius: 5px; text-align: center;}
+
+/*手机快速注册*/
+.register-con { padding:10% 20px; }
+.ipt-phone { width: 100%; height: 45px; background: #fff; border: 1px solid #e1e1e2; padding-left: 10px; }
+.next { width: 100%; height: 45px; line-height: 45px; display: block; margin-top: 10%; color: #fff; background: #db3535; border-radius: 5px; text-align: center; }
+.note { width: 100%; text-align: center; margin-top: 60%; color: #686a6c;}
+.note .service-item { color: #4697d0;}
+.rc-input { position:relative;}
+.delete { position: absolute; right: 10px; top:15px;}
+
+/*手机快速注册--验证码*/
+.register-con-1 { padding-top:0;}
+.hint { margin:15px auto; color: #616264;}
+.code-next { background: #cecece }
+.ipt-code { width: 65%; height: 45px; padding-left: 10px; background: #fff; border: 1px solid #e3e3e5;}
+.register-con-1 .get-code { width: 30%; height: 45px; line-height: 45px; text-align: center; background: #fff; color: #bcbcbc; margin:0; border: 1px solid #e3e3e5; font-family: "微软雅黑"}
+
+/*手机快速注册-设置密码*/
+.ipt-pwd { width: 100%;}
+.notice { color: #bebebf; margin-top: 10px;}

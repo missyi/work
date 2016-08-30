@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+
+<title>我的订单</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/mine.css" />
+    
+</head>
+<body>
+
+   <!--通用头部-->
+    <header id="wep-header" class="wep-header" >
+        <div class="col-xs-3"><a href="#"><img src="images/back.png" width="12" alt="" /></a></div>
+        <div class="col-xs-6 text-center f-20">我的订单</div>
+        <div class="col-xs-3 text-center num"></div>
+    </header>
+    <!-- 内容 -->
+    <div class="con order-con">
+        <div class="oc-status border-b">
+            <ul class="menu">
+                <li class="current first">全部</li>
+                <li>代付款</li>
+                <li>待发货</li>
+                <li>待收货</li>
+                <li>待评价</li>
+            </ul>
+        </div>
+        
+        <div class=" mt-60">
+            <!-- 全部 -->
+            <div class="oc-status-bot ocs-all">
+                <!-- 全部中-待付款 -->
+                <div class="status-div border-t border-b">
+                    <p class="p-status red">等待买家付款</p>
+                    <div class="sd-pro">
+                        <div class="fl sp-img"><img src="images/pro-img-4.png" alt=""></div>
+                        <div class="sp-detail fl">
+                            <p class="sd-name">净美仕空气净化器家用 除甲醛 除二手烟味异味臭氧消毒杀菌</p>
+                            <p class="gray-1">颜色：白色</p>
+                            <span class="tuihuan f-12">七天退换</span>
+                        </div>
+                        <div class="sp-price-num fr">
+                            <p class="red">￥<span class="one-price">1400</span></p>
+                            <p class="gray-1"><s>￥4888</s></p>
+                            <p class="gray-1">×<span class="sn-quantity">2</span></p>
+                        </div>
+                    </div>
+                    <p class="sd-price">共一件商品 合计：￥<span class="sd-sum">2400</span>(含运费￥25)</p>
+                    <div class="over-h mt-10">
+                        <input class="sd-pay fr" type="submit" value="付款">                
+                        <a class="sd-btn fr" href="javascript:;">取消订单</a>
+                        <a class="sd-btn fr" href="javascript:;">联系卖家</a>
+                    </div>
+                </div>
+                <!-- 全部中-待发货 -->
+                <div class="status-div border-t border-b stay-shipments">
+                    <p class="p-status red">买家已付款</p>
+                    <div class="sd-pro">
+                        <div class="fl sp-img"><img src="images/pro-img-4.png" alt=""></div>
+                        <div class="sp-detail fl">
+                            <p class="sd-name">净美仕空气净化器家用 除甲醛 除二手烟味异味臭氧消毒杀菌</p>
+                            <p class="gray-1">颜色：白色</p>
+                            <span class="tuihuan f-12">七天退换</span>
+                        </div>
+                        <div class="sp-price-num fr">
+                            <p class="red">￥<span class="one-price">1400</span></p>
+                            <p class="gray-1"><s>￥4888</s></p>
+                            <p class="gray-1">×<span class="sn-quantity">2</span></p>
+                        </div>
+                    </div>
+                    <div class="sd-pro mt-10">
+                        <div class="fl sp-img"><img src="images/pro-img-4.png" alt=""></div>
+                        <div class="sp-detail fl">
+                            <p class="sd-name">净美仕空气净化器家用 除甲醛 除二手烟味异味臭氧消毒杀菌</p>
+                            <p class="gray-1">颜色：白色</p>
+                            <span class="tuihuan f-12">七天退换</span>
+                        </div>
+                       <div class="sp-price-num fr">
+                            <p class="red">￥<span class="one-price">1300</span></p>
+                            <p class="gray-1"><s>￥4888</s></p>
+                            <p class="gray-1">×<span class="sn-quantity">2</span></p>
+                        </div>
+                    </div>
+                    <p class="sd-price">共一件商品 合计：￥<span class="sd-sum">3180</span>(含运费￥10)</p>
+                    <div class="over-h mt-10">
+                        <input class="sd-pay fr" type="submit" value="提醒发货">                
+                        <!-- <a class="sd-btn fr" href="javascript:;">取消订单</a> -->
+                        <!-- <a class="sd-btn fr" href="javascript:;">提醒发货</a> -->
+                    </div>
+                </div>
+                <!-- 全部中-待收货 -->
+                <div class="status-div border-t border-b stay-receipt">
+                    <p class="p-status red">卖家已发货</p>
+                    <div class="sd-pro">
+                        <div class="fl sp-img"><img src="images/pro-img-4.png" alt=""></div>
+                        <div class="sp-detail fl">
+                            <p class="sd-name">净美仕空气净化器家用 除甲醛 除二手烟味异味臭氧消毒杀菌</p>
+                            <p class="gray-1">颜色：白色</p>
+                            <span class="tuihuan f-12">七天退换</span>
+                        </div>
+                        <div class="sp-price-num fr">
+                            <p class="red">￥<span class="one-price">1300</span></p>
+                            <p class="gray-1"><s>￥4888</s></p>
+                            <p class="gray-1">×<span class="sn-quantity">2</span></p>
+                        </div>
+                    </div>
+                    <p class="sd-price">共一件商品 合计：￥<span class="sd-sum">2400</span>(含运费￥25)</p>
+                    <div class="over-h mt-10">
+                        <input class="sd-pay fr" type="submit" value="确认收货">            
+                        <a class="sd-btn fr" href="javascript:;">查看物流</a>
+                        <!-- <a class="sd-btn fr" href="javascript:;">联系卖家</a> -->
+                    </div>
+                </div>
+                <!-- 全部中-待评价 -->
+                <div class="status-div border-t border-b stay-evaluate">
+                    <p class="p-status red">买家已签收</p>
+                    <div class="sd-pro">
+                        <div class="fl sp-img"><img src="images/pro-img-4.png" alt=""></div>
+                        <div class="sp-detail fl">
+                            <p class="sd-name">净美仕空气净化器家用 除甲醛 除二手烟味异味臭氧消毒杀菌</p>
+                            <p class="gray-1">颜色：白色</p>
+                            <span class="tuihuan f-12">七天退换</span>
+                        </div>
+                        <div class="sp-price-num fr">
+                            <p class="red">￥<span class="one-price">1300</span></p>
+                            <p class="gray-1"><s>￥4888</s></p>
+                            <p class="gray-1">×<span class="sn-quantity">2</span></p>
+                        </div>
+                    </div>
+                    <p class="sd-price">共一件商品 合计：￥<span class="sd-sum">2400</span>(含运费￥25)</p>
+                    <div class="over-h mt-10">
+                        <input class="sd-pay fr" type="submit" value="评价">            
+                        <a class="sd-btn fr" href="javascript:;">删除订单</a>
+                    </div>
+                </div>    
+            </div>
+
+            <!-- 待付款 -->
+            <div class="oc-status-bot ocs-pay">
+                <div class="status-div border-t border-b stay-pay">
+                    <p class="p-status red">等待买家付款<span class="ps-choose"><img src="images/dui.png" width="15" alt=""></span></p>
+                    <div class="sd-pro">
+                        <div class="fl sp-img"><img src="images/pro-img-4.png" alt=""></div>
+                        <div class="sp-detail fl">
+                            <p class="sd-name">净美仕空气净化器家用 除甲醛 除二手烟味异味臭氧消毒杀菌</p>
+                            <p class="gray-1">颜色：白色</p>
+                            <span class="tuihuan f-12">七天退换</span>
+                        </div>
+                        <div class="sp-price-num fr">
+                            <p class="red">￥<span class="one-price">1300</span></p>
+                            <p class="gray-1"><s>￥4888</s></p>
+                            <p class="gray-1">×<span class="sn-quantity">2</span></p>
+                        </div>
+                    </div>
+                    <p class="sd-price">共一件商品 合计：￥<span class="sd-sum">2800</span>(含运费￥25)</p>
+                    <div class="over-h mt-10">
+                        <input class="sd-pay fr" type="submit" value="付款">                
+                        <a class="sd-btn fr" href="javascript:;">取消订单</a>
+                        <a class="sd-btn fr" href="javascript:;">联系卖家</a>
+                    </div>
+                </div>
+                <div class="status-div border-t border-b stay-pay">
+                    <p class="p-status red">等待买家付款<span class="ps-choose"><img src="images/dui.png" width="15" alt=""></span></p>
+                    <div class="sd-pro">
+                        <div class="fl sp-img"><img src="images/pro-img-4.png" alt=""></div>
+                        <div class="sp-detail fl">
+                            <p class="sd-name">净美仕空气净化器家用 除甲醛 除二手烟味异味臭氧消毒杀菌</p>
+                            <p class="gray-1">颜色：白色</p>
+                            <span class="tuihuan f-12">七天退换</span>
+                        </div>
+                        <div class="sp-price-num fr">
+                            <p class="red">￥<span class="one-price">1200</span></p>
+                            <p class="gray-1"><s>￥4888</s></p>
+                            <p class="gray-1">×<span class="sn-quantity">2</span></p>
+                        </div>
+                    </div>
+                    <p class="sd-price">共一件商品 合计：￥<span class="sd-sum">2400</span>(含运费￥25)</p>
+                    <div class="over-h mt-10">
+                        <input class="sd-pay fr" type="submit" value="付款">                
+                        <a class="sd-btn fr" href="javascript:;">取消订单</a>
+                        <a class="sd-btn fr" href="javascript:;">联系卖家</a>
+                    </div>
+                </div>
+
+                <div class="ocp-foot">
+                    <a class="combine-pay fr" href="javascript:;">合并付款</a>
+                    <p class="fr">共<span class="of-quantity">0</span>件，总计<span class="f-16 red"></span>￥<span class="red f-16 all-price">6360</span></p>
+                </div>
+            </div>      
+            
+            <!-- 待发货 -->
+            <div class="oc-status-bot ocs-shipments">
+                <div class="status-div border-t border-b stay-shipments">
+                    <p class="p-status red">买家已付款</p>
+                    <div class="sd-pro">
+                        <div class="fl sp-img"><img src="images/pro-img-4.png" alt=""></div>
+                        <div class="sp-detail fl">
+                            <p class="sd-name">净美仕空气净化器家用 除甲醛 除二手烟味异味臭氧消毒杀菌</p>
+                            <p class="gray-1">颜色：白色</p>
+                            <span class="tuihuan f-12">七天退换</span>
+                        </div>
+                        <div class="sp-price-num fr">
+                            <p class="red">￥<span class="one-price">1300</span></p>
+                            <p class="gray-1"><s>￥4888</s></p>
+                            <p class="gray-1">×<span class="sn-quantity">2</span></p>
+                        </div>
+                    </div>
+                    <p class="sd-price">共一件商品 合计：￥<span class="sd-sum">3180</span>(含运费￥10)</p>
+                    <div class="over-h mt-10">
+                        <input class="sd-pay fr" type="submit" value="提醒发货">      
+                    </div>
+                </div>
+                <div class="status-div border-t border-b stay-shipments">
+                    <p class="p-status red">买家已付款</p>
+                    <div class="sd-pro">
+                        <div class="fl sp-img"><img src="images/pro-img-4.png" alt=""></div>
+                        <div class="sp-detail fl">
+                            <p class="sd-name">净美仕空气净化器家用 除甲醛 除二手烟味异味臭氧消毒杀菌</p>
+                            <p class="gray-1">颜色：白色</p>
+                            <span class="tuihuan f-12">七天退换</span>
+                        </div>
+                        <div class="sp-price-num fr">
+                            <p class="red">￥<span class="one-price">1300</span></p>
+                            <p class="gray-1"><s>￥4888</s></p>
+                            <p class="gray-1">×<span class="sn-quantity">2</span></p>
+                        </div>
+                    </div>
+                    <div class="sd-pro mt-10">
+                        <div class="fl sp-img"><img src="images/pro-img-4.png" alt=""></div>
+                        <div class="sp-detail fl">
+                            <p class="sd-name">净美仕空气净化器家用 除甲醛 除二手烟味异味臭氧消毒杀菌</p>
+                            <p class="gray-1">颜色：白色</p>
+                            <span class="tuihuan f-12">七天退换</span>
+                        </div>
+                        <div class="sp-price-num fr">
+                            <p class="red">￥<span class="one-price">1300</span></p>
+                            <p class="gray-1"><s>￥4888</s></p>
+                            <p class="gray-1">×<span class="sn-quantity">2</span></p>
+                        </div>
+                    </div>
+                    <p class="sd-price">共一件商品 合计：￥<span class="sd-sum">3180</span>(含运费￥10)</p>
+                    <div class="over-h mt-10">
+                        <input class="sd-pay fr" type="submit" value="提醒发货">      
+                    </div>
+                </div>
+            </div>
+                
+            <!-- 待发货 -->
+            <div class="oc-status-bot ocs-receipt">
+                <div class="status-div border-t border-b stay-receipt">
+                    <p class="p-status red">卖家已发货</p>
+                    <div class="sd-pro">
+                        <div class="fl sp-img"><img src="images/pro-img-4.png" alt=""></div>
+                        <div class="sp-detail fl">
+                            <p class="sd-name">净美仕空气净化器家用 除甲醛 除二手烟味异味臭氧消毒杀菌</p>
+                            <p class="gray-1">颜色：白色</p>
+                            <span class="tuihuan f-12">七天退换</span>
+                        </div>
+                        <div class="sp-price-num fr">
+                            <p class="red">￥<span class="one-price">1300</span></p>
+                            <p class="gray-1"><s>￥4888</s></p>
+                            <p class="gray-1">×<span class="sn-quantity">2</span></p>
+                        </div>
+                    </div>
+                    <p class="sd-price">共一件商品 合计：￥<span class="sd-sum">2400</span>(含运费￥25)</p>
+                    <div class="over-h mt-10">
+                        <input class="sd-pay fr" type="submit" value="确认收货">            
+                        <a class="sd-btn fr" href="javascript:;">查看物流</a>
+                        <!-- <a class="sd-btn fr" href="javascript:;">联系卖家</a> -->
+                    </div>
+                </div>
+                <div class="status-div border-t border-b stay-receipt">
+                    <p class="p-status red">卖家已发货</p>
+                    <div class="sd-pro">
+                        <div class="fl sp-img"><img src="images/pro-img-4.png" alt=""></div>
+                        <div class="sp-detail fl">
+                            <p class="sd-name">净美仕空气净化器家用 除甲醛 除二手烟味异味臭氧消毒杀菌</p>
+                            <p class="gray-1">颜色：白色</p>
+                            <span class="tuihuan f-12">七天退换</span>
+                        </div>
+                        <div class="sp-price-num fr">
+                            <p class="red">￥<span class="one-price">1300</span></p>
+                            <p class="gray-1"><s>￥4888</s></p>
+                            <p class="gray-1">×<span class="sn-quantity">2</span></p>
+                        </div>
+                    </div>
+                    <div class="sd-pro mt-10">
+                        <div class="fl sp-img"><img src="images/pro-img-4.png" alt=""></div>
+                        <div class="sp-detail fl">
+                            <p class="sd-name">净美仕空气净化器家用 除甲醛 除二手烟味异味臭氧消毒杀菌</p>
+                            <p class="gray-1">颜色：白色</p>
+                            <span class="tuihuan f-12">七天退换</span>
+                        </div>
+                        <div class="sp-price-num fr">
+                            <p class="red">￥<span class="one-price">1300</span></p>
+                            <p class="gray-1"><s>￥4888</s></p>
+                            <p class="gray-1">×<span class="sn-quantity">2</span></p>
+                        </div>
+                    </div>
+                    <p class="sd-price">共一件商品 合计：￥<span class="sd-sum">2400</span>(含运费￥25)</p>
+                    <div class="over-h mt-10">
+                        <input class="sd-pay fr" type="submit" value="确认收货">            
+                        <a class="sd-btn fr" href="javascript:;">查看物流</a>
+                        <!-- <a class="sd-btn fr" href="javascript:;">联系卖家</a> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- 待发货 -->
+            <div class="oc-status-bot ocs-evaluate">
+                <div class="status-div border-t border-b stay-evaluate">
+                    <p class="p-status red">买家已签收</p>
+                    <div class="sd-pro">
+                        <div class="fl sp-img"><img src="images/pro-img-4.png" alt=""></div>
+                        <div class="sp-detail fl">
+                            <p class="sd-name">净美仕空气净化器家用 除甲醛 除二手烟味异味臭氧消毒杀菌</p>
+                            <p class="gray-1">颜色：白色</p>
+                            <span class="tuihuan f-12">七天退换</span>
+                        </div>
+                        <div class="sp-price-num fr">
+                            <p class="red">￥<span class="one-price">1300</span></p>
+                            <p class="gray-1"><s>￥4888</s></p>
+                            <p class="gray-1">×<span class="sn-quantity">2</span></p>
+                        </div>
+                    </div>
+                    <p class="sd-price">共一件商品 合计：￥<span class="sd-sum">2400</span>(含运费￥25)</p>
+                    <div class="over-h mt-10">
+                        <input class="sd-pay fr" type="submit" value="评价">            
+                        <a class="sd-btn fr" href="javascript:;">删除订单</a>
+                    </div>
+                </div>
+                <div class="status-div border-t border-b stay-evaluate">
+                    <p class="p-status red">买家已签收</p>
+                    <div class="sd-pro">
+                        <div class="fl sp-img"><img src="images/pro-img-4.png" alt=""></div>
+                        <div class="sp-detail fl">
+                            <p class="sd-name">净美仕空气净化器家用 除甲醛 除二手烟味异味臭氧消毒杀菌</p>
+                            <p class="gray-1">颜色：白色</p>
+                            <span class="tuihuan f-12">七天退换</span>
+                        </div>
+                        <div class="sp-price-num fr">
+                            <p class="red">￥<span class="one-price">1300</span></p>
+                            <p class="gray-1"><s>￥4888</s></p>
+                            <p class="gray-1">×<span class="sn-quantity">2</span></p>
+                        </div>
+                    </div>
+                    <div class="sd-pro mt-10">
+                        <div class="fl sp-img"><img src="images/pro-img-4.png" alt=""></div>
+                        <div class="sp-detail fl">
+                            <p class="sd-name">净美仕空气净化器家用 除甲醛 除二手烟味异味臭氧消毒杀菌</p>
+                            <p class="gray-1">颜色：白色</p>
+                            <span class="tuihuan f-12">七天退换</span>
+                        </div>
+                        <div class="sp-price-num fr">
+                            <p class="red">￥<span class="one-price">1300</span></p>
+                            <p class="gray-1"><s>￥4888</s></p>
+                            <p class="gray-1">×<span class="sn-quantity">2</span></p>
+                        </div>
+                    </div>
+                    <p class="sd-price">共一件商品 合计：￥<span class="sd-sum">2400</span>(含运费￥25)</p>
+                    <div class="over-h mt-10">
+                        <input class="sd-pay fr" type="submit" value="评价">            
+                        <a class="sd-btn fr" href="javascript:;">删除订单</a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        
+
+    </div>
+
+</body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/jquery.backgroundpos.js"></script>
+    <script src="js/mine.js"></script>
+</html>

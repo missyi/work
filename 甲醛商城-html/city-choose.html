@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+
+<title>省市区选择</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/ticket.css" />
+    
+</head>
+<body>
+   
+
+    <!--通用头部-->
+    <header id="wep-header" class="wep-header" >
+        <div class="col-xs-3"><a href="#"><img src="images/back.png" width="12" alt="" /></a></div>
+        <div class="col-xs-6 text-center f-20">省市区选择</div>
+        <div class="col-xs-3 text-center num"></div>
+    </header>
+    <!-- 内容 -->
+    <div class="con city-con">
+    </div>
+
+</body>
+    <!--<script src="js/jquery.mobile-1.4.5.min.js"></script>-->
+    <script src="js/jquery-1.9.1.js"></script>
+
+    <script src="js/common.js"></script>
+    <script src="js/address-choose.js"></script>
+    <script src="js/area.js"></script>
+    <script>
+    $(function(){
+        getProvinceBuy();    
+    })
+    </script>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+
+<title>收获地址管理</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/ticket.css" />
+    
+</head>
+<body>
+    <div class="grayDiv"></div>
+    <div class="popDiv add-popdiv">
+        <p class="ap-title f-16">街道选择 </p>
+        <ul>
+            <li class="border-b ">
+                <span class="fl">东华门街道</span>
+                <span class="add-checkbox fr"></span>
+            </li>
+            <li class="border-b ">
+                <span class="fl">东华门街道</span>
+                <span class="add-checkbox fr"></span>
+            </li>
+            <li class="border-b ">
+                <span class="fl">东华门街道</span>
+                <span class="add-checkbox fr"></span>
+            </li>
+            <li class="border-b ">
+                <span class="fl">东华门街道</span>
+                <span class="add-checkbox fr"></span>
+            </li>
+            <li class="border-b ">
+                <span class="fl">东华门街道</span>
+                <span class="add-checkbox fr"></span>
+            </li>
+        </ul>
+        <div class="ap-foot border-t">
+            <span class="ap-cancel border-r">取消</span>
+            <span class="ap-sure">确定</span>
+        </div>
+    </div>
+    <!--通用头部-->
+    <header id="wep-header" class="wep-header" >
+        <div class="col-xs-3"><a href="#"><img src="images/back.png" width="12" alt="" /></a></div>
+        <div class="col-xs-6 text-center f-20">收获地址管理</div>
+        <div class="col-xs-3 text-center num"></div>
+    </header>
+    <!-- 内容 -->
+    <div class="con add-con add-manage-con-1">
+        <ul class="border-b mt-15 add-items">
+            <li class="white-bg">
+                <input class="f-16" type="text" placeholder="华仔">
+                <p class="gray-1">收货人的姓名</p>
+            </li>
+            <li class="border-t white-bg">
+                <input class="f-16" type="text" placeholder="15235626548">
+                <p class="gray-1">手机号码</p>
+            </li>
+            <li class="border-t white-bg">
+                <p class="f-16">北京北京市昌平区</p>
+                <p class="gray-1">所在地区</p>
+                <img class="arr-r" src="images/arr-r.png" width="11" alt="">
+            </li>
+            <li class="border-t white-bg street">
+                <p class="f-16">海淀区街道</p>
+                <p class="gray-1">街道</p>
+                <img class="arr-r" src="images/arr-r.png" width="11" alt="">
+            </li>
+            <li class="border-t white-bg">
+                <textarea class="f-14 xx-address" placeholder="回龙观建材城西一里小区1号楼一单元000室" ></textarea>
+                <p class="gray-1">详细地址</p>
+            </li>
+            <!-- <li class="border-t white-bg">
+                <p class="f-16">设置为默认地址</p>
+            </li> -->
+            <li class="border-t white-bg">
+                <input class="f-16" type="text" placeholder="100096">
+                <p class="gray-1">邮政编码</p>
+            </li>
+        </ul>   
+        
+        <!-- <a class="manage-add" href="javascript:;"><span class="f-20">+</span> 新增收货地址</a> -->
+        <div class="manage-add manage-footer">
+            <div class="delete fl"><img src="images/delete.png" alt=""><span class="red f-16">删除</span></div>
+            <a class="save fr" href="javascript:;">保存</a>
+        </div>
+    </div>
+
+</body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/address-choose.js"></script>
+</html>

@@ -1,0 +1,28 @@
+.hint { height: 45px;line-height: 45px; text-align: center;}
+.payment-div { width: 100%; background: #fff; padding:10px 10px;}
+.receiver-address { position: relative; }
+.receiver-phone { width: 90%;}
+.receiver-address .add { margin-top: 10px; }
+.receiver-address .arr-r { position: absolute; right: 10px; top: 35%;}
+
+.op-img { width: 20%; max-width: 106px;}
+.op-name { width:60%;  margin-left: 10px;}
+.op-color { color:#bebebe;}
+.op-price-num { width: 15%;}
+.opn-num { color:#acacac;}
+@media screen and (max-width: 357px){
+	.payment-pro p { font-size: 14px;}
+}
+
+.privilege,.sum-pay { padding: 10px 10px; background: #fff;}
+.balance-pay { height: 45px; line-height: 45px; padding: 0 10px;}
+.balance-pay .select { display: block; width: 22px; height: 22px; line-height: 19px; text-align: center; border: 1px solid #d8d8d8; float: right; margin-left: 5px; margin-top: 10px;}
+.online-pay { width: 100%; padding: 10px 10px; margin-bottom: 50px;}
+.op-title { margin-bottom: 10px;}
+.online-pay ul li { width: 100%; padding:10px 0; border-top: 1px solid #d8d8d8; overflow: hidden;}
+.op-select { width: 25px; height: 25px; line-height: 22px; display: block; border: 1px solid #d8d8d8; margin-top: 3px; text-align: center;}
+/*.os-img { display: none;}*/
+/*.os-img.os-show { display: block;}*/
+
+.go-pay { width: 100%; background: #fff; height: 45px; line-height: 45px; position: fixed; bottom: 0;}
+.go-pay .pay { width: 30%; display: block; background: #db3535; color:#fff; font-size: 16px; text-align: center;}

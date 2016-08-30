@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+
+<title>商品详情</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/pro-detail.css" />
+    
+</head>
+<body>
+    <div class="grayDiv"></div>
+    <!-- 优惠券 弹窗 -->
+    <div class="coupon-div popup">
+        <div class="cd-in">
+            <p class="popup-title">优惠券</p>
+            <div class="over-h cd-condition">
+                <div class="fl">
+                    <p class="red f-16">5元</p>
+                    <p>订单满99元使用（不包含邮费）</p>
+                    <p class="deadline">使用期限2016.03.22-2016.04.30</p>
+                </div>
+                <a class="cd-get fr" href="javascript:;">领取</a>
+            </div>
+            <div class="over-h cd-condition">
+                <div class="fl">
+                    <p class="red f-16">20元</p>
+                    <p>订单满199元使用（不包含邮费）</p>
+                    <p class="deadline">使用期限2016.03.22-2016.04.30</p>
+                </div>
+                <a class="cd-get fr" href="javascript:;">领取</a>
+            </div>
+            <div class="over-h cd-condition">
+                <div class="fl">
+                    <p class="red f-16">50元</p>
+                    <p>订单满399元使用（不包含邮费）</p>
+                    <p class="deadline">使用期限2016.03.22-2016.04.30</p>
+                </div>
+                <a class="cd-get fr" href="javascript:;">领取</a>
+            </div>
+            <div class="over-h cd-condition">
+                <div class="fl">
+                    <p class="red f-16">50元</p>
+                    <p>订单满399元使用（不包含邮费）</p>
+                    <p class="deadline">使用期限2016.03.22-2016.04.30</p>
+                </div>
+                <a class="cd-get fr" href="javascript:;">领取</a>
+            </div>
+            <div class="over-h cd-condition">
+                <div class="fl">
+                    <p class="red f-16">50元</p>
+                    <p>订单满399元使用（不包含邮费）</p>
+                    <p class="deadline">使用期限2016.03.22-2016.04.30</p>
+                </div>
+                <a class="cd-get fr" href="javascript:;">领取</a>
+            </div>
+            
+
+            <a class="cd-close" href="javascript:;">关闭</a>
+        </div>
+        
+    </div>
+
+
+    <!-- 包邮 弹窗-->
+    <div class="privilege-div popup">
+        <p class="privilege popup-title">店铺优惠</p>
+        <div class="border-b condition">
+            <p class="f-16 mb-10">满一件</p>
+            <p>满一件，享包邮　　　<span class="time">2016.03.22-2016.04.30</span></p>
+        </div>
+        <a class="close red-bg" href="javascript:;">关闭</a>
+    </div>
+
+    <!-- 分享 弹窗-->
+    <div class="share-div popup">
+        <p class="sd-title popup-title">分享给朋友</p>
+        <ul class="over-h">
+            <li>
+                <img src="images/other-wx.png" alt="">
+                <p>微信</p>
+            </li>
+            <li>
+                <img src="images/pyq.png" alt="">
+                <p>朋友圈</p>
+            </li>
+            <li>
+                <img src="images/other-qq.png" alt="">
+                <p>QQ</p>
+            </li>
+            <li>
+                <img src="images/xlwb.png" alt="">
+                <p>新浪微博</p>
+            </li>
+        </ul>
+        <a class="cancel" href="javascript:;">取消</a>
+    </div>
+
+    <!-- 颜色 弹窗 -->
+    <div class="color-num-div popup">
+        <div class="cnd-top">
+            <div class="fl cnd-proimg"><img src="images/pro-img-4.png" alt=""></div>
+            <div class="cnd-name fl">
+                <p class="red mb-10 mt-10 f-16">净化仕空净化器 ￥689</p>
+                <p>库存1999件</p>
+                <p class="select-sort">请选择颜色分类</p>
+            </div>
+            <!-- <img src="" alt=""> -->
+            <div class="cnd-close fr">×</div>
+        </div>
+        <div class="cnd-in">
+            
+            <div class="ci-div cnd-sort">
+                <p class="f-16 mb-10">颜色分类：</p>
+                <ul class="over-h">
+                    <li>黑色</li>
+                    <li>白色</li>
+                    <li>银色</li>
+                </ul>
+            </div>
+            <div class="cnd-buynum">
+                <p class="fl f-16 mt-3">购买数量：</p>
+                <div class="fr quantity-wrapper">
+                    <a class="quantity-decrease" href="javascript:;">—</a>
+                    <input class="quantity" size="4" value="1" type="text">
+                    <a class="quantity-increase f-20" href="javascript:;"></a>
+                </div>
+            </div>
+            <div class="ci-div cnd-delivery">
+                <p class="f-16 mb-10">递送方式：</p>
+                <ul class="over-h">
+                    <li>电子券</li>
+                    <li>物流商品</li>
+                </ul>
+            </div>
+            <a class="sure f-16" href="javascript:;">确定</a>    
+        </div>
+        
+    </div>
+
+
+
+
+    <!--通用头部-->
+    <header id="wep-header" class="wep-header border-bn" >
+        <div class="col-xs-3"><a href="#"><img src="images/back.png" width="12" alt="" /></a></div>
+        <div class="col-xs-6 text-center f-20">详情页</div>
+        <div class="col-xs-3 text-center num"><a href="#"><img src="images/car.png" width="23" alt="" /></a><span class="n-num">3</span></div>
+    </header>
+    <!-- 内容 -->
+    <div class="con pro-detail-con">
+        <!--product-->
+        <div class="product">
+            <div class="pictures swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="javascript:;"><img src="images/product-1.png" /></a></div>
+                    <div class="swiper-slide"><a href="javascript:;"><img src="images/product-1.png" /></a></div>
+                    <div class="swiper-slide"><a href="javascript:;"><img src="images/product-1.png" /></a></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="pro-des">
+                <div class="over-h">
+                    <p class="fl pro-name">净美仕空气净化器家用 除甲醛 除雾霾除二手烟味异味臭氧消毒杀菌</p>
+                    <div class="share fr"><img src="images/share.png" width="20" alt="" /> <p>分享</p> </div>
+                </div>
+                
+                <div class="pro-price">
+                    <p class="price f-12 red fl">￥<span class="f-24 red">280</span></p>
+                    <span class="tag red-bg">新货上市</span>
+                    <span class="tag yellow-bg">新货上市</span>
+                </div>
+                <p class="gray"><span>价格<s>￥280元</s></span>　　　　月销量2866笔</p>
+            </div>
+        </div>
+
+        <!-- 活动 -->
+        <div class="activity mt-20">
+            <div class="activity-item coupon border-b"><span>券</span>领取优惠券，满99元减5元，满199元减20元...</div>
+            <div class="activity-item pinkage"><span>促</span>满1件，包邮</div>
+        </div>
+
+        <!-- 选择颜色分类 -->
+        <div class="sort mt-20">
+            <p class="fl selected">选择颜色分类</p><a class="fr" href="javascript:;"><img src="images/arr-r.png" width="12" alt=""></a>
+        </div>
+
+        <!-- 详情 -->
+        <div class="pro-detail mt-20">
+            <div class="pd-top">
+                <ul>
+                    <li class="on"><a href="javascript:;">商品详情</a></li>
+                    <li class="last"><a href="javascript:;">规格参数</a></li>
+                </ul>
+            </div>
+            <div class="pd-bot mt-20">
+                <div class="b_con b_01">
+                    <img src="images/pro-img-1.png" alt="" />
+                    <img src="images/pro-img-2.png" alt="" />
+                    <img src="images/pro-img-3.png" alt="" />
+                </div>
+                <div class="b_con b_02">
+                    <table border="1" cellpadding="0" cellspacing="0" align="center" bgcolor=" #fff" bordercolor="#fff" >
+                    <tr>
+                        <td>商品名称</td>
+                        <td>xana甲醛净化器</td>
+                    </tr>
+                    <tr>
+                        <td>功能介绍</td>
+                        <td>检测、净化甲醛</td>
+                    </tr>
+                    <tr>
+                        <td>重量</td>
+                        <td>1-500g</td>
+                    </tr>
+                    <tr>
+                        <td>适用空间</td>
+                        <td>50-100m<sup>2</sup></td>
+                    </tr>
+                    <tr>
+                        <td>产品特征</td>
+                        <td>能净化甲醛<br />
+                            甲醛检测精度极高<br />
+                            使用方便，可以随时检测甲醛<br />
+                            有历史数据参考
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>操作系统支持</td>
+                        <td>Android4.0 和 5.0及以上版本</td>
+                    </tr>
+                    <tr>
+                        <td>精确度</td>
+                        <td>0.001mg/m³</td>
+                    </tr>
+                    <tr>
+                        <td>量程</td>
+                        <td>0.000-2.680mg/m³</td>
+                    </tr>
+                    <tr>
+                        <td>响应时间</td>
+                        <td>小于10秒</td>
+                    </tr>
+                    <tr>
+                        <td>适用环境</td>
+                        <td>工作温度 -10℃~50℃<br />
+                            工作湿度 15%~90%RH无凝结<br />
+                            存储温度 -20℃~60℃<br />
+                            存储温度 15%~90%RH 无凝结
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>工作寿命</td>
+                        <td>实验开机状态已持续超过26280小时</td>
+                    </tr>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <footer class="footer">
+        <ul>
+            <li class="white-bg service">客服</li>
+            <li class="yellow-bg join-car"><a href="javascript:;">加入购物车</a></li>
+            <li class="red-bg"><a href="javascript:;">立即购买</a></li>
+        </ul>
+    </footer>
+   
+
+</body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/pro-detail.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                centeredSlides: true,
+                autoplay: false,
+                autoplayDisableOnInteraction: false,
+                loop:true
+    
+            });
+    </script>
+</html>

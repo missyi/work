@@ -1,0 +1,17 @@
+.pro-link { padding:20px 10px; border-bottom: 1px solid #eaeaea; background: #fff;}
+.pl-img { width: 30%; max-width: 150px; height: 100px; background: #fff; border: 1px solid #e6e6e6; text-align: center;}
+.pl-txt { width: 65%; margin-left: 10px;}
+.pl-txt .sold { color:#adadad; margin-top: 5px; }
+.pl-img  img { width: 80%; max-width: 80px; margin: 10px auto;}
+.sent-link { width: 40%; height: 35px;line-height: 33px; color: #df5d5d; border: 1px solid #df5d5d; border-radius: 5px; text-align: center; margin:20px auto 0; display: block; font-size: 16px;}
+
+.chat { padding: 20px 10px; overflow: hidden;}
+.chat-time { color: #dededf; text-align: center; margin-bottom: 20px; clear: both;}
+.chat-div { width: 81%;  margin-bottom: 20px;}
+.message { width: 70%; padding: 5px 10px;}
+.merchant .message { background: #fff; margin-left: 15px; border-radius: 5px;}
+.oneself .message { background: #eee; margin-right: 15px; border-radius: 5px;}
+
+.question-send { padding:0 10px; margin-bottom: 20px; overflow: hidden;}
+.question { width: 75%; height: 35px; line-height: 35px; border-radius: 5px; padding-left: 35px;  background: #fff url(../images/write.png) no-repeat 5px center; border: 1px solid #dedede;}
+.question-send .send { width:20%; height: 30px; line-height: 30px; font-size: 16px; color: #fff; background: #da3f3f; display: block; text-align: center; border-radius: 5px; margin-top: 3px;}

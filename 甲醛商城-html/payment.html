@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+
+<title>付款详情</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/payment.css" />
+    
+</head>
+<body>
+    <!--通用头部-->
+    <header id="wep-header" class="wep-header" >
+        <div class="col-xs-3"><a href="#"><img src="images/back.png" width="12" alt="" /></a></div>
+        <div class="col-xs-6 text-center f-20">付款详情</div>
+        <div class="col-xs-3 text-center num"></div>
+    </header>
+    <!-- 内容 -->
+    <div class="con payment-con">
+        <p class="red hint">注：订单已提交，请尽快支付</p>
+
+        <div class="">
+            <div class="payment-div payment-pro over-h  border-t border-b">
+                <img class="fl op-img" src="images/pro-img-5.png" alt="">
+                <div class="op-name fl">
+                    <p>净化仕空气净化器家用 除甲醛 除雾霾 除二手烟异味臭氧消费杀菌</p>
+                    <p class="op-color mt-10">颜色：白色</p>
+                </div>
+                <div class="op-price-num fr">
+                    <p class="red f-16">￥<span class="one-price">3190</span></p>
+                    <p class="f-16 opn-num fr">×<span class="quantity">1</span></p>
+                </div>
+            </div>
+            <div class="payment-div payment-pro over-h  border-b">
+                <img class="fl op-img" src="images/pro-img-5.png" alt="">
+                <div class="op-name fl">
+                    <p>净化仕空气净化器家用 除甲醛 除雾霾 除二手烟异味臭氧消费杀菌</p>
+                    <p class="op-color mt-10">颜色：白色</p>
+                </div>
+                <div class="op-price-num fr">
+                    <p class="red f-16">￥<span class="one-price">3180</span></p>
+                    <p class="f-16 opn-num fr">×<span class="quantity">1</span></p>
+                </div>
+            </div>    
+            <p class="privilege border-b over-h"><span class="gray-1 fl">优惠</span><span class="fr j-privilege">￥360</span></p>
+            <div class="sum-pay over-h border-b">
+                <div class="gray-1 fl">
+                    <p class="fl">总计￥<span>6360　</span></p>
+                    <p class="fl">已优惠￥<span>360</span></p>
+                </div> 
+                <p class="fr">待支付<span class="red s-pay">￥7200</span></p> 
+            </div>
+        </div>
+        <!-- 余额支付 -->
+        <div class="balance-pay white-bg over-h mt-15 border-t border-b ">
+            <span class="fl">余额支付</span>
+            <p class="fr gray-1">使用余额￥4200，还差￥3000 <span class="select"></span></p>
+        </div>
+
+        <!-- 在线支付 -->
+        <div class="online-pay white-bg over-h border-t border-b mt-15">
+            <p class="op-title">在线支付</p>
+            <ul>
+                <li>
+                    <div class="fl"><img src="images/yinlian.png" width="30" alt=""><span class="ml-10">银联支付</span></div>
+                    <span class="op-select fr"></span>
+                </li>
+                <li>
+                    <div class="fl"><img src="images/zhifubao.png" width="30" alt=""><span class="ml-10">支付宝支付</span></div>
+                    <span class="op-select fr"></span>
+                </li>
+                <li>
+                    <div class="fl"><img src="images/other-wx.png" width="30" alt=""><span class="ml-10">微信支付</span></div>
+                    <span class="op-select fr"></span>
+                </li>
+            </ul>
+        </div>
+        <!-- 提交订单 -->
+        <div class="go-pay">
+            <div class="fl">
+                <p class="fl ml-10">代付款￥<span class="gp-sum">6000</span></p>
+                <p class="fl gray-1 ml-10">已优惠￥<span class="gp-privilege">360</span></p>
+            </div>
+            <a class="pay fr" href="javascipt:;">去支付</a>
+        </div>
+    </div>
+
+</body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/payment.js"></script>
+</html>

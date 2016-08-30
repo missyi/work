@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+
+<title>购物车</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/car.css" />
+    
+</head>
+<body>
+    <!--通用头部-->
+    <header id="wep-header" class="wep-header" >
+        <div class="col-xs-3"><a href="#"><img src="images/back.png" width="12" alt="" /></a></div>
+        <div class="col-xs-6 text-center f-20">购物车</div>
+        <div class="col-xs-3 text-right f-16">编辑</div>
+    </header>
+    <!-- 内容 -->
+    <div class="con car-con">
+        <div id="notEmptyCart">
+            <ul class="shp-cart-list">
+                <li class="border-b white-bg">
+                    <div class="items">
+                        <div class="check-wrapper">
+                            <span class="cart-checkbox"></span>
+                        </div>
+                        <div class="shp-cart-item-core ">
+                            <a class="cart-product-cell-1" href="javascript:;">
+                                <img class="cart-photo-thumb" alt="" src="images/product-1.png">
+                            </a>
+                            <div class="cart-product-cell-2">
+                                <div class="cart-product-name">
+                                    <a class="f-14" href="javascript:;">净化仕空气净化器家用 除甲醛 除雾霾 臭氧消毒 杀菌...</a>
+                                    <p class="gray-1 f-14">颜色：白色</p>
+                                </div>  
+                                <div class="over-h">
+                                    <p class="fl"><span class="red shp-cart-item-price">￥3180</span>　<s class="f-12 gray-1">￥3180</s></p>
+                                    <span class="fr gray-1">×<span class="num-quantity">1</span></span>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="border-b white-bg">
+                    <div class="items">
+                        <div class="check-wrapper">
+                            <span class="cart-checkbox"></span>
+                        </div>
+                        <div class="shp-cart-item-core ">
+                            
+                            <a class="cart-product-cell-1" href="javascript:;">
+                                <img class="cart-photo-thumb" alt="" src="images/product-1.png">
+
+                            </a>
+                            <div class="cart-product-cell-2">
+                                <div class="cart-product-name">
+                                    <a class="f-14" href="javascript:;">净化仕空气净化器家用 除甲醛 除雾霾 臭氧消毒 杀菌...</a>
+                                    <p class="gray-1 f-14">颜色：白色</p>
+                                </div>  
+                                <div class="over-h">
+                                    <p class="fl"><span class="red shp-cart-item-price">￥3180</span>　<s class="f-12 gray-1">￥3180</s></p>
+                                    <span class="fr gray-1">×<span class="num-quantity">1</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="payment-total-bar" id="payment">
+            <div class="shp-chk">
+                <span class=" all-checkbox"></span>全选
+            </div>
+            <div class="shp-cart-info fr">
+                <!-- <strong class="shp-cart-total red">总计:￥<span class="">3180</span></strong> -->
+                <p class="red f-16 shp-cart-total">总计：<span class="f-20 red">￥0</span></p>
+            </div>
+            <a class="btn-right-block" id="submit" >结算(<span class="pay-quantity">  </span>)</a>
+        </div>    
+    </footer>
+
+</body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/car.js"></script>
+</html>

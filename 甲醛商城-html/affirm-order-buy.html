@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+
+<title>确认订单-购买</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/affirm-order.css" />
+    
+</head>
+<body>
+    <div class="grayDiv"></div>
+    <!-- 优惠券 弹窗 -->
+    <div class="privilege-div popup">
+        <div class="cd-in">
+            <p class="popup-title">优惠券</p>
+            <div class="over-h cd-condition">
+                <div class="fl">
+                    <p class="red f-16 cc-txt">5元</p>
+                    <p>订单满99元使用（不包含邮费）</p>
+                    <p class="deadline">使用期限2016.03.22-2016.04.30</p>
+                </div>
+                <a class="cd-get fr" href="javascript:;">使用</a>
+            </div>
+            <div class="over-h cd-condition">
+                <div class="fl">
+                    <p class="red f-16 cc-txt">20元</p>
+                    <p>订单满199元使用（不包含邮费）</p>
+                    <p class="deadline">使用期限2016.03.22-2016.04.30</p>
+                </div>
+                <a class="cd-get fr" href="javascript:;">使用</a>
+            </div>
+            <div class="over-h cd-condition">
+                <div class="fl">
+                    <p class="f-16 cc-txt">满一件</p>
+                    <p class="">满一件，享包邮</p>
+                    <p class="deadline fl">2016.03.22-2016.04.30</p>
+                </div>
+                <a class="cd-get fr" href="javascript:;">使用</a>
+            </div>
+            
+
+            <a class="cd-close" href="javascript:;">关闭</a>
+        </div>
+    </div>
+    <!-- 发票 弹窗 -->
+    <div class="invoice-div popup">
+        <div class="cd-in">
+            <p class="popup-title">发票信息</p>
+            <ul>
+                <li><span class="ip-txt">不开发票</span><img class="fr select" src="images/dui.png" width="15" alt=""></li>
+                <li><span class="ip-txt">普通发票</span><img class="fr select" src="images/dui.png" width="15" alt=""></li>
+                <li class="gray-1"><span class="ip-txt">电子发票</span><img class="fr select" src="images/dui.png" width="15" alt=""></li>
+            </ul>
+            
+
+            <a class="cd-close" href="javascript:;">关闭</a>
+        </div>
+    </div>
+
+
+    <!--通用头部-->
+    <header id="wep-header" class="wep-header" >
+        <div class="col-xs-3"><a href="#"><img src="images/back.png" width="12" alt="" /></a></div>
+        <div class="col-xs-6 text-center f-20">确认订单</div>
+        <div class="col-xs-3 text-center num"></div>
+    </header>
+    <!-- 内容 -->
+    <div class="con order-con">
+        <div class="order-div receiver-address border-b">
+            <img class="arr-r" src="images/arr-r.png" width="15" alt="">
+            <div class="receiver-phone over-h"><p class="fl">收货人：华仔</p><p class="fr">15234256525</p></div>
+            <p class="add">收货地址：丰台区公益西桥蓝光云鼎230</p>
+        </div>
+
+        <div class=" mt-15">
+            <div class="order-div order-pro over-h  border-t border-b">
+                <img class="fl op-img" src="images/pro-img-5.png" alt="">
+                <div class="op-name fl">
+                    <p>净化仕空气净化器家用 除甲醛 除雾霾 除二手烟异味臭氧消费杀菌</p>
+                    <p class="op-color mt-10">颜色：白色</p>
+                </div>
+                <div class="op-price-num fr">
+                    <p class="red f-16">￥<span class="one-price">3190</span></p>
+                    <p class="f-16 opn-num">×<span class="op-quantity">1</span></p>
+                </div>
+            </div>
+                
+        </div>
+        
+
+        <!-- 确定订单详情 -->
+        <div class="order-div order-detial border-t border-b mt-15 over-h">
+            <ul>
+                <li>
+                    <div class="od-buynum">
+                        <p class="fl f-16">购买数量：</p>
+                            <div class="fr quantity-wrapper">
+                                <a class="quantity-decrease" href="javascript:;">—</a>
+                                <input class="quantity" size="4" value="1" type="text">
+                                <a class="quantity-increase f-20" href="javascript:;"></a>
+                            </div>
+                    </div>        
+                </li>
+                <li>
+                    <div class="privilege over-h">
+                        <p class="fl f-16">店铺优惠</p>
+                        <p class="fr gray-1"><span class="pri-txt">满一件包邮　</span><img src="images/arr-r.png" width="10" alt=""></p>
+                    </div>        
+                </li>
+                <li>
+                    <div class="invoice over-h">
+                        <p class="fl f-16">发票信息</p>
+                        <p class="fr gray-1 inv-txt">普通发票</p>
+                    </div>        
+                </li>
+                <li class="invoice-tt">
+                    <div class="">
+                        <p class="f-16">发票抬头 <input class="gray-1 f-14 fptt" placeholder="请输入发票抬头" /></p>
+                    </div>        
+                </li>
+                <li class="border-bn">
+                    <div class="">
+                        <p class="fl f-16">卖家留言：</p>
+                        <textarea class="gray-1 f-14 fl ly-textarea" placeholder="选填，可填写您和卖家大成一致的要求"></textarea> 
+                         
+                    </div>        
+                </li>
+            </ul>
+            <p class="fr mb-10">共1件，总计<span class="red f-16">￥<span class="o-sum">3189</span></span></p>
+        </div>
+
+        <!-- 优惠 -->
+        <div class="order-div order-privilege border-t border-b mt-15">
+            <div class="over-h border-b op-integral">
+                <p class="fl f-16">使用44天积分抵￥<span class="integral">0.44</span></p>
+                <span class="fr od-checkbox"></span>
+            </div>
+            <div class="op-ticket over-h">
+                <p class="fl">使用代金券</p>
+                <span class="fr"><img src="images/arr-r.png" width="10" alt=""></span>
+            </div>
+        </div>
+
+        <!-- 提交订单 -->
+        <div class="submit-order">
+            <a class="submit fr " href="javascript:;">提交订单</a>
+            <p class="fr mr-10">共1件，总计<span class="red f-16">￥<span class="sum">3189</span></span></p>
+        </div>
+    </div>
+
+</body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/affirm-order.js"></script>
+    <script src="js/affirm-order-buy.js"></script>
+</html>

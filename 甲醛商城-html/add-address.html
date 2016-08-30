@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+
+<title>新增收货地址</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/ticket.css" />
+    
+</head>
+<body>
+    <div class="grayDiv"></div>
+    <div class="popDiv add-popdiv">
+        <p class="ap-title f-16">街道选择 </p>
+        <ul>
+            <li class="border-b ">
+                <span class="fl">东华门街道</span>
+                <span class="add-checkbox fr"></span>
+            </li>
+            <li class="border-b ">
+                <span class="fl">东华门街道</span>
+                <span class="add-checkbox fr"></span>
+            </li>
+            <li class="border-b ">
+                <span class="fl">东华门街道</span>
+                <span class="add-checkbox fr"></span>
+            </li>
+            <li class="border-b ">
+                <span class="fl">东华门街道</span>
+                <span class="add-checkbox fr"></span>
+            </li>
+            <li class="border-b ">
+                <span class="fl">东华门街道</span>
+                <span class="add-checkbox fr"></span>
+            </li>
+        </ul>
+        <div class="ap-foot border-t">
+            <span class="ap-cancel border-r">取消</span>
+            <span class="ap-sure">确定</span>
+        </div>
+    </div>
+
+    <div class="page">
+        <!--通用头部-->
+        <header id="wep-header" class="wep-header" >
+            <div class="col-xs-3"><a href="#"><img src="images/back.png" width="12" alt="" /></a></div>
+            <div class="col-xs-6 text-center f-20">新增收货地址</div>
+            <div class="col-xs-3 text-center num"></div>
+        </header>
+        <!-- 内容 -->
+        <div class="con add-con add-address-con">
+            <ul class="border-b mt-15 add-items">
+                <li class="white-bg">
+                    <input class="f-16" type="text" value="" placeholder="收货人姓名">
+                </li>
+                <li class="border-t white-bg">
+                    <input class="f-16" type="text" value="" placeholder="手机号码">
+                </li>
+                <li class="border-t white-bg">
+                    <input class="f-16" type="text" value="" placeholder="邮政编号">
+                </li>
+                <li class="border-t white-bg">
+                    <p class="f-16 city-choose" id="shengshi">选择省、市、区</p>
+                    <img class="arr-r" src="images/arr-r.png" width="11" alt="">
+                </li>
+
+                <li class="border-t white-bg street">
+                    <p class="f-16">请选择街道</p>
+                    <img class="arr-r" src="images/arr-r.png" width="11" alt="">
+                </li>
+                <li class="border-t white-bg">
+                    <input class="f-16" type="text" value="" placeholder="详细地址">
+                </li>
+                
+                
+            </ul>   
+            <a class="save" href="javascript:;">保存</a>
+        </div>    
+    </div>
+    
+    
+    <div class="page-1">
+        <!--通用头部-->
+        <header id="wep-header" class="wep-header" >
+            <div class="col-xs-3 city-back"><a href="#"><img src="images/back.png" width="12" alt="" /></a></div>
+            <div class="col-xs-6 text-center f-18">省市区选择</div>
+            <div class="col-xs-3 text-center num"></div>
+        </header>
+        <!-- 内容 -->
+        <div class="con city-con">
+        </div>  
+    </div>
+
+</body>
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/address-choose.js"></script>
+    <script src="js/area.js"></script>
+    
+</html>

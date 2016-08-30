@@ -1,0 +1,42 @@
+.con { position: static;}
+/*banner*/
+/*焦点图轮播-首页*/
+.main_visual { height: 175px; border-top: 1px solid #d7d7d7; overflow: hidden; position: relative; }
+.main_image { height: 175px; overflow: hidden; position: relative; }
+.main_image ul { width: 9999px; height: 175px; overflow: hidden; position: absolute; top: 0; left: 0 }
+.main_image li { float: left; width: 100%; height: 175px; }
+.main_image li span { display: block; width: 100%; height: 175px; background-position: center top; background-repeat: no-repeat; background-size: 100%; }
+.main_image li a { display: block; width: 100%; height: 175px }
+div.flicking_con { position: absolute; right: 0; /*width: 96px; */z-index: 111; bottom: 10px;}
+div.flicking_con a { float: left; width: 22px; height: 17px; margin: 0 8px 0 0; padding: 0; text-align: center; background: url(../images/icon-03.png); display: block; font-size: 12px; color: #fff; /*text-indent: -1000px; -webkit-transform: rotate(45deg); transform: rotate(45deg); */}
+div.flicking_con a.on { background: url(../images/icon-04.png); }
+.home-banner { width: 100%; position:relative; margin-top: 66px;}
+
+
+.dot-num { position: absolute; right: 0; width: 96px; z-index: 111; bottom: 10px;}
+.dot-num li { width: 33.3%; text-align: center; font-style: normal; line-height: 18px; color: #fff; float: left; font-size: 12px;}
+
+/*热点*/
+.hot { width: 100%; height: 45px; line-height: 45px; background: #fff;}
+.hot span { width: 25%; height: 30px; line-height: 30px; border-right: 1px solid #d8d8d8; padding:0 10px; float: left; margin-top: 8px;}
+.noticeDetail { width: 70%; height:45px; line-height:45px; float:left; overflow:hidden;}
+.noticeDetail ul { padding:0 0 0 10px;}
+.noticeDetail ul li { height: 45px; line-height: 45px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.noticeDetail ul a { color:#393939;}
+.noticeIn .more { float:right; color:#333;}
+
+/*内容*/
+/*.con-in { margin-top: 15px;}*/
+.con-in .ci-title { height: 45px; line-height: 45px; background:#fff url(../images/icon-02.png) no-repeat -2px center; padding-left: 15px;}
+.cp-large { width: 52%; position: relative;}
+.ci-pro { min-height: 200px; background: #fff;}
+.cp-large { min-height: 200px; padding: 10px;}
+.cl-img { width: 70%; max-width: 230px; position: absolute; right: 5px; bottom: 5px;}
+.cp-small { width: 48%;}
+.cs-top,.cs-bot { position: relative; min-height: 100px; padding: 10px;}
+.cs-img { position: absolute; right: 5px; bottom: 5px; }
+.cs-img-1 { width: 55%; max-width: 100px;}
+.cs-img-2 { width: 66%; max-width: 120px;}
+
+.scene-show img { width: 100%;}
+.pro-des img { width: 100%;}
